@@ -1,5 +1,11 @@
-.logoImage {
-  margin: -105px 0 -150px 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@600&display=swap');
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navlink {
+  font-family: 'Raleway', sans-serif;
 }
 
 @media (max-width: 700px) {

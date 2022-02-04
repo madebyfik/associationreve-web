@@ -14,7 +14,7 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
   }
 
   return (
-    <nav className="flex flex-wrap items-center bg-sky-100 p-3">
+    <nav className="bg-white-100 flex flex-wrap items-center p-3">
       <Link href="/home">
         <a className="logo-image mr-4 inline-flex items-center p-2">
           {/* <svg
@@ -59,9 +59,13 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
         }   w-full lg:inline-flex lg:w-auto lg:flex-grow`}
       >
         <div className="flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center">
-          <NavLink link="/home" title="Accueil" />
-          <NavLink link="/activity" title="Activité" />
-          <NavLink link="/contact" title="Contact" />
+          <NavLink styleData={styles.navlink} link="/home" title="Accueil" />
+          <NavLink
+            styleData={styles.navlink}
+            link="/activity"
+            title="Activité"
+          />
+          <NavLink styleData={styles.navlink} link="/contact" title="Contact" />
         </div>
       </div>
     </nav>
