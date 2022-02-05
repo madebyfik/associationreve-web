@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@600&display=swap');
-
 .container {
-  background: #2c65a5;
+  /* background: #2c65a5; */
+  background: #29235c;
   height: 500px;
   width: 100%;
+}
+
+.container img {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
 }
 
 .customShape {
@@ -11,7 +20,7 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  background: #2c65a5;
+  background: #29235c;
 }
 
 .customShapeSvg {

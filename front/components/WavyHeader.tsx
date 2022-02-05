@@ -12,11 +12,11 @@ interface WavyHeaderProps {}
 const WavyHeader: React.FC<WavyHeaderProps> = ({}) => {
   return (
     <>
-      <div className={styles.container + ' grid content-center justify-center'}>
+      <div className={styles.container + ' flex content-center justify-center'}>
         <div className="grid grid-cols-2">
           <div className="flex flex-col content-end justify-center pl-60">
             <h1 className="mb-5 text-5xl font-semibold text-white">
-              Association REVE
+              Bienvenue à l'ASSOCIATION REVE
             </h1>
             <p className="font-medium text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -28,7 +28,7 @@ const WavyHeader: React.FC<WavyHeaderProps> = ({}) => {
               voluptas, ducimus excepturi repudiandae ipsum unde quo deleniti
               explicabo sapiente.
             </p>
-            <div className="mt-2 flex w-52 justify-between text-2xl text-white">
+            <div className="mt-5 flex w-52 justify-between text-2xl text-white">
               <a href="#">
                 <FaFacebookSquare />
               </a>
