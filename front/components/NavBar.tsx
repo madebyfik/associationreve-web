@@ -17,20 +17,18 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
     <nav className="bg-white-100 flex flex-wrap items-center p-3">
       <Link href="/home">
         <a className="logo-image mr-4 inline-flex items-center p-2">
-          {/* <svg
-            className="mr-2 h-8 w-8 fill-current"
-            width="54"
-            height="54"
-            viewBox="0 0 54 54"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
-          </svg> */}
-          <img src="student.svg" width={60} className="mr-3" />
+          {/* <img src="student.svg" width={60} className="mr-3" /> */}
           <span
             className={styles.title + ' text-2xl font-medium tracking-tight'}
           >
             ASSOCIATION REVE
+          </span>
+          <span
+            className={
+              styles.titleMobile + ' text-2xl font-medium tracking-tight'
+            }
+          >
+            A. REVE
           </span>
         </a>
       </Link>
@@ -59,13 +57,13 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
         }   w-full lg:inline-flex lg:w-auto lg:flex-grow`}
       >
         <div className="flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center">
-          <NavLink styleData={styles.navlink} link="/home" title="Accueil" />
+          <NavLink styleData={styles.navLink} link="/home" title="Accueil" />
           <NavLink
-            styleData={styles.navlink}
+            styleData={styles.navLink}
             link="/activity"
             title="Activité"
           />
-          <NavLink styleData={styles.navlink} link="/contact" title="Contact" />
+          <NavLink styleData={styles.navLink} link="/contact" title="Contact" />
         </div>
       </div>
     </nav>

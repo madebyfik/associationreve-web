@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@600&display=swap');
+
+.container {
+  background: #2c65a5;
+  height: 500px;
+  width: 100%;
+}
+
+.customShape {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background: #2c65a5;
+}
+
+.customShapeSvg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 93px;
+}
+
+.shapeFill {
+  fill: white;
+}

@@ -4,12 +4,21 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.navlink {
+.titleMobile {
+  font-family: 'Montserrat', sans-serif;
+  display: none;
+}
+
+.navLink {
   font-family: 'Raleway', sans-serif;
 }
 
 @media (max-width: 700px) {
   .title {
     display: none;
+  }
+
+  .titleMobile {
+    display: block;
   }
 }
