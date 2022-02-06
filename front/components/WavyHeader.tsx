@@ -12,7 +12,7 @@ interface WavyHeaderProps {}
 const WavyHeader: React.FC<WavyHeaderProps> = ({}) => {
   return (
     <>
-      <div className={styles.container + ' flex content-center justify-center'}>
+      <div className={styles.container + ' grid content-center justify-center'}>
         <div className="grid grid-cols-2">
           <div className="flex flex-col content-end justify-center pl-60">
             <h1 className="mb-5 text-5xl font-semibold text-white">
