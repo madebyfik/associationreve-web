@@ -1,4 +1,4 @@
  [build]
 base = "front"
-publish = "front/.next/"
-command = "next build"
+command = "npm run build"
+publish = "front/.next"
