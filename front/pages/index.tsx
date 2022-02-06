@@ -4,7 +4,7 @@ import { NavBar } from '../components/NavBar'
 import TeamCard from '../components/TeamCard'
 import WavyHeader from '../components/WavyHeader'
 
-import styles from '../styles/pages/home.module.css'
+import styles from '../styles/pages/index.module.css'
 
 interface indexProps {}
 
