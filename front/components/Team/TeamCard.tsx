@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/components/TeamCard.module.css'
+import styles from '../../styles/components/TeamCard.module.css'
 import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 interface TeamCardProps {
@@ -11,7 +11,12 @@ interface TeamCardProps {
 
 const TeamCard: React.FC<TeamCardProps> = (props) => {
   return (
-    <div className={styles.teamCard}>
+    <div
+      className={
+        styles.teamCard +
+        ' m-5 flex flex-col items-center justify-center text-center'
+      }
+    >
       <img src={props.image} width={200} />
       <p className="mt-5 text-lg font-bold">{props.name}</p>
       <p className="text-blue-600">{props.title}</p>

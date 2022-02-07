@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 
-import styles from '../styles/components/NavBar.module.css'
+import styles from '../../styles/components/NavBar.module.css'
 import NavLink from './NavLink'
 
 interface NavBarProps {}
