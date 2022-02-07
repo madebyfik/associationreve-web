@@ -1,6 +1,6 @@
 .container {
   background: #29235c;
-  height: 500px;
+  min-height: 500px;
   width: 100%;
 }
 
@@ -31,4 +31,20 @@
 
 .shapeFill {
   fill: white;
+}
+
+.headerText {
+  padding-left: 15%;
+}
+
+@media (max-width: 1250px) {
+  .headerText {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .headerImage {
+    display: none;
+  }
 }
