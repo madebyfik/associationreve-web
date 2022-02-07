@@ -7,49 +7,97 @@ interface TeamProps {}
 
 const Team: React.FC<TeamProps> = ({}) => {
   return (
-    <div
-      className={styles.containerEquipe + ' mt-10 flex flex-col items-center'}
-    >
-      <p className="text-center text-3xl font-extrabold">Une équipe de rêve</p>
-      <div className="mt-5 flex w-1/2 flex-wrap justify-around p-5">
-        <TeamCard
-          image="spidey.jpg"
-          title="Président"
-          name="Furkan Tanriverdi"
-          mail="furkantanriverdi@associationreve.com"
-        />
-        <TeamCard
-          image="spidey.jpg"
-          title="Président"
-          name="Furkan Tanriverdi"
-          mail="furkantanriverdi@associationreve.com"
-        />
-        <TeamCard
-          image="spidey.jpg"
-          title="Président"
-          name="Furkan Tanriverdi"
-          mail="furkantanriverdi@associationreve.com"
-        />
-        <TeamCard
-          image="spidey.jpg"
-          title="Président"
-          name="Furkan Tanriverdi"
-          mail="furkantanriverdi@associationreve.com"
-        />
-        <TeamCard
-          image="spidey.jpg"
-          title="Président"
-          name="Furkan Tanriverdi"
-          mail="furkantanriverdi@associationreve.com"
-        />
-        <TeamCard
-          image="spidey.jpg"
-          title="Président"
-          name="Furkan Tanriverdi"
-          mail="furkantanriverdi@associationreve.com"
-        />
+    <>
+      <div
+        className={
+          styles.containerEquipe + ' mt-10 flex flex-col items-center pt-10'
+        }
+      >
+        <p className="text-center text-3xl font-extrabold">
+          UNE ÉQUIPE DE RÊVE
+        </p>
+        <div className="mt-5 flex w-1/2 flex-wrap justify-around p-5">
+          <TeamCard
+            image="spidey.jpg"
+            title="Président"
+            name="Furkan TANRIVERDI"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink="https://www.linkedin.com/in/tanriverdi-furkan-31a03a151/"
+            instagramLink="https://www.instagram.com/mr_furkan_tanriverdi/"
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Vice Président"
+            name="Abdulsamet TANRIVERDI"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink="https://www.linkedin.com/in/abdul-samet-tanriverdi-7708b2168/"
+            instagramLink="#"
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Secrétaire"
+            name="Elif HIRLAK"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/elif_hrlk/"
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Trésorier"
+            name="Emre DAGDEMIR"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink="https://www.linkedin.com/in/emre-dagdemir-a622ba19b/"
+            instagramLink="https://www.instagram.com/emrethealchemist/"
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Pôle Évenementielle"
+            name="Ramazan AKYOL"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink="https://www.linkedin.com/in/ramazan-akyol-1b6331227/"
+            instagramLink="https://www.instagram.com/ramo_akyol/"
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Pôle Évenementielle"
+            name="Gökçe YAVUZ"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink=""
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Pôle Communication"
+            name="Chaymae RAHMANI"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
+          />
+          <TeamCard
+            image="silasertdemir.jpeg"
+            title="Pöle Culturel"
+            name="Sila SERTDEMIR"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink="https://www.linkedin.com/in/silasertdemir/"
+            instagramLink="https://www.instagram.com/scylla.donnajuanita/"
+          />
+        </div>
       </div>
-    </div>
+      <div className={styles.customShape}>
+        <svg
+          data-name="Layer 1"
+          className={styles.customShapeSvg}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            className={styles.shapeFill}
+          ></path>
+        </svg>
+      </div>
+    </>
   )
 }
 

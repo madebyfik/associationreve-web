@@ -1,4 +1,28 @@
+.containerEquipe {
+  background-color: #29235c;
+  color: white;
+}
+
 .containerEquipe h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+}
+
+.customShape {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background: #29235c;
+}
+
+.customShapeSvg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 93px;
+}
+
+.shapeFill {
+  fill: white;
 }

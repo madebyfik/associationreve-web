@@ -7,6 +7,8 @@ interface TeamCardProps {
   title: string
   name: string
   mail: string
+  linkedinLink: string
+  instagramLink: string
 }
 
 const TeamCard: React.FC<TeamCardProps> = (props) => {
@@ -19,15 +21,15 @@ const TeamCard: React.FC<TeamCardProps> = (props) => {
     >
       <img src={props.image} width={200} />
       <p className="mt-5 text-lg font-bold">{props.name}</p>
-      <p className="text-blue-600">{props.title}</p>
-      <div className="mt-3 flex w-16 justify-between text-2xl text-gray-500">
+      <p className="text-gray-500">{props.title}</p>
+      <div className="mt-3 flex w-16 justify-between text-2xl text-gray-300">
         <p>
-          <a href="#">
+          <a target="_blank" href={props.instagramLink}>
             <BsInstagram />
           </a>
         </p>
         <p>
-          <a href="#">
+          <a target="_blank" href={props.linkedinLink}>
             <BsLinkedin />
           </a>
         </p>

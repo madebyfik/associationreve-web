@@ -1,10 +1,6 @@
 import React from 'react'
-import {
-  FaTwitterSquare,
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaLinkedin,
-} from 'react-icons/fa'
+
+import { SiGmail, SiInstagram, SiLinkedin } from 'react-icons/si'
 import styles from '../styles/components/WavyHeader.module.css'
 
 interface WavyHeaderProps {}
@@ -36,17 +32,17 @@ const WavyHeader: React.FC<WavyHeaderProps> = ({}) => {
             repudiandae ipsum unde quo deleniti explicabo sapiente.
           </p>
           <div className="mt-5 flex w-52 justify-between text-2xl text-white">
-            <a href="#">
-              <FaFacebookSquare />
+            <a target="_blank" href="https://instagram.com/associationreve">
+              <SiInstagram />
             </a>
-            <a href="#">
-              <FaInstagramSquare />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/association-reve-298711222/?originalSubdomain=fr"
+            >
+              <SiLinkedin />
             </a>
-            <a href="#">
-              <FaTwitterSquare />
-            </a>
-            <a href="#">
-              <FaLinkedin />
+            <a href="mailto:revepourlavenir@gmail.com">
+              <SiGmail />
             </a>
           </div>
         </div>
