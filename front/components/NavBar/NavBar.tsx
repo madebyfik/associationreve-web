@@ -6,7 +6,7 @@ import NavLink from './NavLink'
 
 interface NavBarProps {}
 
-export const NavBar: React.FC<NavBarProps> = ({}) => {
+const NavBar: React.FC<NavBarProps> = ({}) => {
   const [active, setActive] = useState(false)
 
   const handleClick = () => {
@@ -69,3 +69,5 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
     </nav>
   )
 }
+
+export default NavBar

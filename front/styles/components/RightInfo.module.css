@@ -1,0 +1,29 @@
+.container {
+  margin-top: 5%;
+}
+
+.text {
+  padding-right: 15%;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text {
+    width: 100%;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+}
