@@ -29,7 +29,7 @@ const index: React.FC<indexProps> = ({}) => {
       />
       <Team />
       <RightInfo
-        title="Lorem ipsum dolor sit"
+        title="L'équipe en détail"
         paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
           repellat consequuntur nesciunt id eveniet, dolore similique,
           temporibus eius veniam repudiandae est facilis aperiam possimus non ea

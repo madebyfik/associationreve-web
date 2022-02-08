@@ -32,7 +32,7 @@ const Team: React.FC<TeamProps> = ({}) => {
         </p>
         <div className="mt-5 flex w-1/2 flex-wrap justify-around p-5">
           <TeamCard
-            image="spidey.jpg"
+            image="furkantanriverdi.jpeg"
             title="Président"
             name="Furkan TANRIVERDI"
             mail="furkantanriverdi@associationreve.com"
@@ -40,7 +40,7 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/mr_furkan_tanriverdi/"
           />
           <TeamCard
-            image="spidey.jpg"
+            image="abdulsamettanriverdi.jpeg"
             title="Vice Président"
             name="Abdulsamet TANRIVERDI"
             mail="furkantanriverdi@associationreve.com"
@@ -48,7 +48,7 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="#"
           />
           <TeamCard
-            image="spidey.jpg"
+            image="elifhirlak.jpg"
             title="Secrétaire"
             name="Elif HIRLAK"
             mail="furkantanriverdi@associationreve.com"
@@ -56,7 +56,7 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/elif_hrlk/"
           />
           <TeamCard
-            image="spidey.jpg"
+            image="emredagdemir.jpeg"
             title="Trésorier"
             name="Emre DAGDEMIR"
             mail="furkantanriverdi@associationreve.com"
@@ -64,36 +64,36 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/emrethealchemist/"
           />
           <TeamCard
-            image="spidey.jpg"
+            image="ramazanakyol.jpeg"
             title="Pôle Évenementielle"
             name="Ramazan AKYOL"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink="https://www.linkedin.com/in/ramazan-akyol-1b6331227/"
             instagramLink="https://www.instagram.com/ramo_akyol/"
           />
-          <TeamCard
-            image="spidey.jpg"
-            title="Pôle Évenementielle"
-            name="Gökçe YAVUZ"
-            mail="furkantanriverdi@associationreve.com"
-            linkedinLink=""
-            instagramLink=""
-          />
-          <TeamCard
+          {/* <TeamCard
             image="spidey.jpg"
             title="Pôle Communication"
             name="Chaymae RAHMANI"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink=""
             instagramLink="https://www.instagram.com/eam_yahs/"
-          />
+          /> */}
           <TeamCard
             image="silasertdemir.jpeg"
-            title="Pöle Culturel"
+            title="Pôle Culturel"
             name="Sila SERTDEMIR"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink="https://www.linkedin.com/in/silasertdemir/"
             instagramLink="https://www.instagram.com/scylla.donnajuanita/"
+          />
+          <TeamCard
+            image="fikretkurklu.jpeg"
+            title="Développeur Informatique"
+            name="Fikret KÜRKLÜ"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink="https://www.linkedin.com/in/fikretkurklu/"
+            instagramLink="https://www.instagram.com/fikret.exe/"
           />
         </div>
       </div>
