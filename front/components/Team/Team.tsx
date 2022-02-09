@@ -56,7 +56,7 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/elif_hrlk/"
           />
           <TeamCard
-            image="emredagdemir.jpeg"
+            image="emredagdemir.jpg"
             title="Trésorier"
             name="Emre DAGDEMIR"
             mail="furkantanriverdi@associationreve.com"
