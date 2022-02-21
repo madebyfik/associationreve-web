@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import ActivityContainer from '../components/Activity/ActivityContainer'
 import LeftInfo from '../components/Info/LeftInfo'
 import RightInfo from '../components/Info/RightInfo'
 import NavBar from '../components/NavBar/NavBar'
@@ -39,6 +40,10 @@ const index: React.FC<indexProps> = ({}) => {
           beatae nisi reprehenderit vero velit sed?"
         image="https://source.unsplash.com/1600x1050/?nature"
       />
+      <p className="m-5 p-5 text-center text-3xl font-extrabold">
+        DES ACTIVITÉS DIVERSES ET VARIÉS
+      </p>
+      <ActivityContainer />
     </>
   )
 }

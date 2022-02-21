@@ -58,11 +58,11 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
       >
         <div className="flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center">
           <NavLink styleData={styles.navLink} link="/" title="Accueil" />
-          <NavLink
+          {/* <NavLink
             styleData={styles.navLink}
             link="/activity"
             title="Activité"
-          />
+          /> */}
           <NavLink styleData={styles.navLink} link="/contact" title="Contact" />
         </div>
       </div>

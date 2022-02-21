@@ -88,7 +88,7 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/scylla.donnajuanita/"
           />
           <TeamCard
-            image="fikretkurklu.jpeg"
+            image="fikretkurklu.jpg"
             title="Développeur Informatique"
             name="Fikret KÜRKLÜ"
             mail="furkantanriverdi@associationreve.com"

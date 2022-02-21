@@ -9,7 +9,7 @@ const ActivityContainer: React.FC<ActivityContainerProps> = ({}) => {
   return (
     <div
       className={
-        styles.container + ' flex flex-wrap items-center justify-center p-5'
+        styles.container + ' flex flex-wrap items-center justify-between p-5'
       }
     >
       <ActivityCard title="Café Débat" image="coffee.png" />
