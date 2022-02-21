@@ -1,3 +1,40 @@
-/* .container {
-  min-height: 800px;
-} */
+.container {
+  background: #29235c;
+}
+
+.customShape {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background: #29235c;
+}
+
+.customShapeSvg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 93px;
+}
+
+.shapeFill {
+  fill: white;
+}
+
+.customShapeTop {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background: #29235c;
+}
+
+.customShapeSvgTop {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 150px;
+}
+
+.shapeFillTop {
+  fill: white;
+}

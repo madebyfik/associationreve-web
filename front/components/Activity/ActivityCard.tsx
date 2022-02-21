@@ -10,8 +10,7 @@ const ActivityCard: React.FC<ActivityCardProps> = (props) => {
   return (
     <div
       className={
-        styles.activityContainer +
-        ' flex flex-col justify-center rounded-lg border-2 p-10'
+        styles.activityContainer + ' flex flex-col justify-center  p-10'
       }
     >
       <img src={props.image} width={300} />

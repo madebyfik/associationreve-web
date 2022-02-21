@@ -8,6 +8,14 @@ import NavBar from '../components/NavBar/NavBar'
 import Team from '../components/Team/Team'
 import WavyHeader from '../components/WavyHeader'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faPersonSnowboarding,
+  faMasksTheater,
+  faBookOpenReader,
+  faMugHot,
+} from '@fortawesome/free-solid-svg-icons'
+
 interface indexProps {}
 
 const index: React.FC<indexProps> = ({}) => {
@@ -41,13 +49,18 @@ const index: React.FC<indexProps> = ({}) => {
           beatae nisi reprehenderit vero velit sed?"
         image="https://source.unsplash.com/1600x1050/?nature"
       />
-      <p className="m-5 p-5 text-center text-3xl font-extrabold">
-        DES ACTIVITÉS DIVERSES ET VARIÉS
-      </p>
       <ActivityContainer />
-      <div className="flex flex-wrap">
-        <div className="w-1/2 p-10">
-          <p className="text-2xl font-bold">Café Débat</p>
+      <div className="mt-5 flex flex-wrap">
+        <div className="flex w-1/2 flex-col p-10">
+          <p className="text-2xl font-bold">
+            Café Débat <FontAwesomeIcon icon={faMugHot} />
+          </p>
+          <div>
+            <img
+              width={600}
+              src="https://source.unsplash.com/1600x1050/?architecture"
+            />
+          </div>
           <p className="text-xl">
             Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quos incidunt velit laborum exercitationem eum quod nostrum
@@ -58,9 +71,17 @@ const index: React.FC<indexProps> = ({}) => {
             neque, voluptates quasi mollitia aut velit rem ab itaque.
           </p>
         </div>
-        <div className="w-1/2 p-10">
-          <p className="text-2xl font-bold">Club Lecture</p>
-          <p className="text-xl">
+        <div className="flex w-1/2 flex-col items-end p-10">
+          <p className="text-2xl font-bold">
+            Club Lecture <FontAwesomeIcon icon={faBookOpenReader} />
+          </p>
+          <div>
+            <img
+              width={600}
+              src="https://source.unsplash.com/1600x1050/?film"
+            />
+          </div>
+          <p className="text-right text-xl">
             Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quos incidunt velit laborum exercitationem eum quod nostrum
             temporibus animi optio, necessitatibus, molestias et commodi non,
@@ -71,7 +92,15 @@ const index: React.FC<indexProps> = ({}) => {
           </p>
         </div>
         <div className="w-1/2 p-10">
-          <p className="text-2xl font-bold">Théatre D'improvisation</p>
+          <p className="text-2xl font-bold">
+            Théatre D'improvisation <FontAwesomeIcon icon={faMasksTheater} />
+          </p>
+          <div>
+            <img
+              width={600}
+              src="https://source.unsplash.com/1600x1050/?people"
+            />
+          </div>
           <p className="text-xl">
             Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quos incidunt velit laborum exercitationem eum quod nostrum
@@ -82,9 +111,17 @@ const index: React.FC<indexProps> = ({}) => {
             provident doloremque numquam ad repellendus molestiae?
           </p>
         </div>
-        <div className="w-1/2 p-10">
-          <p className="text-2xl font-bold">Évenement</p>
-          <p className="text-xl">
+        <div className="flex w-1/2 flex-col items-end p-10">
+          <p className="text-2xl font-bold">
+            Évenement <FontAwesomeIcon icon={faPersonSnowboarding} />
+          </p>
+          <div>
+            <img
+              width={600}
+              src="https://source.unsplash.com/1600x1050/?entrepreneur"
+            />
+          </div>
+          <p className="text-right text-xl">
             Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quos incidunt velit laborum exercitationem eum quod nostrum
             temporibus animi optio, necessitatibus, molestias et commodi non,

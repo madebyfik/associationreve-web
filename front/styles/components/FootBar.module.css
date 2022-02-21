@@ -2,3 +2,21 @@
   background: #29235c;
   color: white;
 }
+
+.customShapeTop {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background: #29235c;
+}
+
+.customShapeSvgTop {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 150px;
+}
+
+.shapeFillTop {
+  fill: white;
+}

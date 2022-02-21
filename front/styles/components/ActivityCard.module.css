@@ -1,7 +1,6 @@
-.activityContainer {
+/* .activityContainer {
   background: #29235c;
-  height: 50%;
-}
+} */
 
 .activityContainer img {
   filter: brightness(0) invert(1);
