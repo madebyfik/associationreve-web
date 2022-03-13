@@ -70,10 +70,10 @@ const index: React.FC<indexProps> = ({}) => {
       <div
         className={
           styles.helloAssoContainer +
-          ' flex flex-col items-center justify-center p-5'
+          ' mt-12 flex flex-col items-center justify-center p-5'
         }
       >
-        <p className="mb-5 mt-5 text-5xl font-semibold">Devenir Adhérent ?</p>
+        <p className="mb-5 text-5xl font-semibold">Devenir Adhérent ?</p>
         <p className="text-justify text-3xl">
           Vous pouvez dès maintenant devenir adhérent en remplissant le
           formulaire ci-dessous
@@ -83,20 +83,6 @@ const index: React.FC<indexProps> = ({}) => {
           src="https://www.helloasso.com/associations/reseau-des-etudiants-visionnaires-et-engages/adhesions/formulaire-d-adhesion/widget"
           className={styles.helloAssoFrame + ' mt-12'}
         ></iframe>
-        {/* <p className="mt-5 text-5xl text-blue-900 underline underline-offset-8">
-          <a
-            target="_blank"
-            href="https://www.helloasso.com/associations/reseau-des-etudiants-visionnaires-et-engages/adhesions/formulaire-d-adhesion"
-          >
-            HELLO ASSO
-          </a>
-        </p> */}
-        {/* <p className="mt-12 text-justify text-xl text-gray-600">
-          Pour plus d'informations, contactez-nous :{' '}
-          <span className="text-blue-900 underline underline-offset-8">
-            contact@revepourlavenir.fr
-          </span>
-        </p> */}
       </div>
 
       <FootBar />
