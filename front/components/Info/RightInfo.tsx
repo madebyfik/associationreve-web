@@ -16,7 +16,7 @@ const RightInfo: React.FC<RightInfoProps> = (props) => {
       }
     >
       <div className={styles.image + ' flex w-1/2 justify-end p-20'}>
-        <img width={600} src={props.image} />
+        <img width={600} src={props.image} className="rounded-lg" />
       </div>
       <div className={styles.text + ' flex w-1/2 flex-col justify-center p-20'}>
         <p className="mb-5 text-3xl font-semibold">{props.title}</p>

@@ -6,6 +6,10 @@
   padding-left: 15%;
 }
 
+.image {
+  /* opacity: 50%; */
+}
+
 @media (max-width: 1350px) {
   .container {
     display: flex;

@@ -20,7 +20,7 @@ const LeftInfo: React.FC<LeftInfoProps> = (props) => {
         <p className="text-justify text-xl">{props.paragraph}</p>
       </div>
       <div className={styles.image + ' flex w-1/2 p-20'}>
-        <img width={600} src={props.image} />
+        <img width={600} src={props.image} className="rounded-lg" />
       </div>
     </div>
   )

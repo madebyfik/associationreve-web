@@ -22,9 +22,9 @@ const ActivityContainer: React.FC<ActivityContainerProps> = ({}) => {
           ></path>
         </svg>
       </div>
-      <div className={styles.container}>
+      <div className={styles.container + ' p-12'}>
         <p className=" p-5 text-center text-3xl font-extrabold text-white">
-          DES ACTIVITÉS DIVERSES ET VARIÉS
+          DES ACTIVITÉS DIVERSES ET VARIÉES
         </p>
         <div className={' flex flex-wrap items-center justify-center'}>
           <ActivityCard title="Café Débat" image="coffee.png" />

@@ -71,14 +71,6 @@ const Team: React.FC<TeamProps> = ({}) => {
             linkedinLink="https://www.linkedin.com/in/ramazan-akyol-1b6331227/"
             instagramLink="https://www.instagram.com/ramo_akyol/"
           />
-          {/* <TeamCard
-            image="spidey.jpg"
-            title="Pôle Communication"
-            name="Chaymae RAHMANI"
-            mail="furkantanriverdi@associationreve.com"
-            linkedinLink=""
-            instagramLink="https://www.instagram.com/eam_yahs/"
-          /> */}
           <TeamCard
             image="silasertdemir.jpeg"
             title="Pôle Culturel"
@@ -88,12 +80,12 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/scylla.donnajuanita/"
           />
           <TeamCard
-            image="fikretkurklu.jpg"
-            title="Développeur Informatique"
-            name="Fikret KÜRKLÜ"
+            image="chaymae.jpeg"
+            title="Pôle Communication"
+            name="Chaymae RAHMANI"
             mail="furkantanriverdi@associationreve.com"
-            linkedinLink="https://www.linkedin.com/in/fikretkurklu/"
-            instagramLink="https://www.instagram.com/fikret.exe/"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
           />
         </div>
       </div>

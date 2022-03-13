@@ -8,13 +8,7 @@ import NavBar from '../components/NavBar/NavBar'
 import Team from '../components/Team/Team'
 import WavyHeader from '../components/WavyHeader'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faPersonSnowboarding,
-  faMasksTheater,
-  faBookOpenReader,
-  faMugHot,
-} from '@fortawesome/free-solid-svg-icons'
+import styles from '../styles/pages/index.module.css'
 
 interface indexProps {}
 
@@ -27,111 +21,83 @@ const index: React.FC<indexProps> = ({}) => {
       <NavBar />
       <WavyHeader />
       <LeftInfo
-        title="Lorem ipsum dolor sit"
-        paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          repellat consequuntur nesciunt id eveniet, dolore similique,
-          temporibus eius veniam repudiandae est facilis aperiam possimus non ea
-          quas. Iste, laudantium veritatis. Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Consequuntur earum dolorum voluptatem
-          quam hic excepturi nemo, error modi incidunt est eos amet nulla sequi
-          beatae nisi reprehenderit vero velit sed?"
-        image="https://source.unsplash.com/1600x1050/?wallpapers"
-      />
-      <Team />
-      <RightInfo
-        title="L'équipe en détail"
-        paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          repellat consequuntur nesciunt id eveniet, dolore similique,
-          temporibus eius veniam repudiandae est facilis aperiam possimus non ea
-          quas. Iste, laudantium veritatis. Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Consequuntur earum dolorum voluptatem
-          quam hic excepturi nemo, error modi incidunt est eos amet nulla sequi
-          beatae nisi reprehenderit vero velit sed?"
-        image="https://source.unsplash.com/1600x1050/?nature"
+        title="Rêve pour l'avenir"
+        paragraph="Le Réseau d'Étudiant.es Visionnaires et Engagé.es est une association située à Grenoble dont l'objectif est de promouvoir l'éducation, le développement personnel et culturel des étudiant.es ainsi que leur intégration dans la vie professionnelle."
+        image="association_reve_presentation.jpg"
       />
       <ActivityContainer />
-      <div className="mt-5 flex flex-wrap">
-        <div className="flex w-1/2 flex-col p-10">
-          <p className="text-2xl font-bold">
-            Café Débat <FontAwesomeIcon icon={faMugHot} />
-          </p>
-          <div>
-            <img
-              width={600}
-              src="https://source.unsplash.com/1600x1050/?architecture"
-            />
-          </div>
-          <p className="text-xl">
-            Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos incidunt velit laborum exercitationem eum quod nostrum
-            temporibus animi optio, necessitatibus, molestias et commodi non,
-            eligendi veritatis. Rem, doloremque ea. Iste! Lorem ipsum dolor, sit
-            amet consectetur adipisicing elit. Dicta recusandae totam placeat
-            modi consequuntur architecto tempora quis natus molestias iure quam
-            neque, voluptates quasi mollitia aut velit rem ab itaque.
-          </p>
-        </div>
-        <div className="flex w-1/2 flex-col items-end p-10">
-          <p className="text-2xl font-bold">
-            Club Lecture <FontAwesomeIcon icon={faBookOpenReader} />
-          </p>
-          <div>
-            <img
-              width={600}
-              src="https://source.unsplash.com/1600x1050/?film"
-            />
-          </div>
-          <p className="text-right text-xl">
-            Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos incidunt velit laborum exercitationem eum quod nostrum
-            temporibus animi optio, necessitatibus, molestias et commodi non,
-            eligendi veritatis. Rem, doloremque ea. Iste! Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Dolorem sit natus ea adipisci
-            iste ullam rem? Cupiditate, iure. Fugit ipsum quae doloremque iusto
-            excepturi velit doloribus, aliquam cum alias minus!
-          </p>
-        </div>
-        <div className="w-1/2 p-10">
-          <p className="text-2xl font-bold">
-            Théatre D'improvisation <FontAwesomeIcon icon={faMasksTheater} />
-          </p>
-          <div>
-            <img
-              width={600}
-              src="https://source.unsplash.com/1600x1050/?people"
-            />
-          </div>
-          <p className="text-xl">
-            Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos incidunt velit laborum exercitationem eum quod nostrum
-            temporibus animi optio, necessitatibus, molestias et commodi non,
-            eligendi veritatis. Rem, doloremque ea. Iste! Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Labore cum dolore ullam, quidem
-            iusto veritatis quas corporis quaerat totam nam quod at animi eum
-            provident doloremque numquam ad repellendus molestiae?
-          </p>
-        </div>
-        <div className="flex w-1/2 flex-col items-end p-10">
-          <p className="text-2xl font-bold">
-            Évenement <FontAwesomeIcon icon={faPersonSnowboarding} />
-          </p>
-          <div>
-            <img
-              width={600}
-              src="https://source.unsplash.com/1600x1050/?entrepreneur"
-            />
-          </div>
-          <p className="text-right text-xl">
-            Text 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quos incidunt velit laborum exercitationem eum quod nostrum
-            temporibus animi optio, necessitatibus, molestias et commodi non,
-            eligendi veritatis. Rem, doloremque ea. Iste! Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Perspiciatis veniam, maxime
-            blanditiis vel eligendi nobis dolor debitis laboriosam eaque
-            perferendis magnam quidem dolore mollitia modi delectus maiores
-            iusto facere doloremque.
-          </p>
-        </div>
+      <LeftInfo
+        title="Café Débat"
+        paragraph="C'est un lieu d'échange et de débat libre, respectant les opinions
+        de chacun sur un sujet différent à chaque fois. En fonction des
+        questions proposées, le café-débat ne sera pas seulement un exercice
+        philosophique, mais aussi un exercice démocratique. Nous proposons 3
+        thèmes différents sur lesquels chaque participant a le pouvoir de
+        voter. Le sujet ayant reçu le plus de votes sera sélectionné pour le
+        café-débat. Venez parler et écouter les autres, on se sent moins
+        seul quand d'autres partagent nos expériences !"
+        image="cafe_debat.jpeg"
+      />
+      <RightInfo
+        title="Club Lecture"
+        paragraph="Un club de lecture est un groupe de personnes qui lisent et
+        discutent de livres sur la base d'un thème ou d'une liste de
+        lecture. Une fois par mois, pendant environ deux heures, ils se
+        réunissent pour passer du temps et discuter de littérature avec
+        d'autres passionnés. Sans compter tous les moments consacrés à la
+        lecture tout au long du mois. Venez partager votre passion et passer
+        un agréable moment avec nos lecteurs !"
+        image="club_lecture_presentation.jpeg"
+      />
+
+      <LeftInfo
+        title="Théatre d'improvisation"
+        paragraph="Le théâtre d'improvisation est une forme d'improvisation dans
+        laquelle vous jouez une ou plusieurs scènes non répétées. Cela vous
+        permet d'ignorer spontanément les jugements des autres, d'accepter
+        vos propres idées et de faire confiance à vous-même et aux autres.
+        Grâce aux nombreuses activités proposées, le théâtre d'improvisation
+        vous permet de gagner en confiance et en créativité. Découvrez nos
+        activités et venez nous rejoindre !"
+        image="theatre_impro_presentation.jpeg"
+      />
+      <RightInfo
+        title="Évenement"
+        paragraph="Un club de lecture est un groupe de personnes qui lisent et
+        discutent de livres sur la base d'un thème ou d'une liste de
+        lecture. Une fois par mois, pendant environ deux heures, ils se
+        réunissent pour passer du temps et discuter de littérature avec
+        d'autres passionnés. Sans compter tous les moments consacrés à la
+        lecture tout au long du mois. Venez partager votre passion et passer
+        un agréable moment avec nos lecteurs !"
+        image="evenement_presentation.jpeg"
+      />
+      <Team />
+      <div
+        className={
+          styles.helloAssoContainer +
+          ' flex flex-col items-center justify-center p-5'
+        }
+      >
+        <p className="mb-5 text-5xl font-semibold">Devenir Adhérent ?</p>
+        <p className="text-justify text-3xl">
+          Vous pouvez dès maintenant devenir adhérent en remplissant le
+          formulaire disponible sur Hello Asso
+        </p>
+        <p className="mt-5 text-5xl text-blue-900 underline underline-offset-8">
+          <a
+            target="_blank"
+            href="https://www.helloasso.com/associations/reseau-des-etudiants-visionnaires-et-engages/adhesions/formulaire-d-adhesion"
+          >
+            HELLO ASSO
+          </a>
+        </p>
+        <p className="mt-12 text-justify text-xl text-gray-600">
+          Pour plus d'informations, contactez-nous :{' '}
+          <span className="text-blue-900 underline underline-offset-8">
+            contact@revepourlavenir.fr
+          </span>
+        </p>
       </div>
 
       <FootBar />
