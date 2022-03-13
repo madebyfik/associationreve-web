@@ -63,13 +63,7 @@ const index: React.FC<indexProps> = ({}) => {
       />
       <RightInfo
         title="Évenement"
-        paragraph="Un club de lecture est un groupe de personnes qui lisent et
-        discutent de livres sur la base d'un thème ou d'une liste de
-        lecture. Une fois par mois, pendant environ deux heures, ils se
-        réunissent pour passer du temps et discuter de littérature avec
-        d'autres passionnés. Sans compter tous les moments consacrés à la
-        lecture tout au long du mois. Venez partager votre passion et passer
-        un agréable moment avec nos lecteurs !"
+        paragraph="L’objectif de notre association étant de permettre l’ancrage d’un réseau universitaire et professionnel, nous mettons tout en œuvre pour entretenir ce lien qui nous unit. Des moments de convivialités sont au rendez-vous à l’occasion de nos diverses activités et évènements."
         image="evenement_presentation.jpeg"
       />
       <Team />
@@ -79,25 +73,30 @@ const index: React.FC<indexProps> = ({}) => {
           ' flex flex-col items-center justify-center p-5'
         }
       >
-        <p className="mb-5 text-5xl font-semibold">Devenir Adhérent ?</p>
+        <p className="mb-5 mt-5 text-5xl font-semibold">Devenir Adhérent ?</p>
         <p className="text-justify text-3xl">
           Vous pouvez dès maintenant devenir adhérent en remplissant le
-          formulaire disponible sur Hello Asso
+          formulaire ci-dessous
         </p>
-        <p className="mt-5 text-5xl text-blue-900 underline underline-offset-8">
+        <iframe
+          scrolling="auto"
+          src="https://www.helloasso.com/associations/reseau-des-etudiants-visionnaires-et-engages/adhesions/formulaire-d-adhesion/widget"
+          className={styles.helloAssoFrame + ' mt-12'}
+        ></iframe>
+        {/* <p className="mt-5 text-5xl text-blue-900 underline underline-offset-8">
           <a
             target="_blank"
             href="https://www.helloasso.com/associations/reseau-des-etudiants-visionnaires-et-engages/adhesions/formulaire-d-adhesion"
           >
             HELLO ASSO
           </a>
-        </p>
-        <p className="mt-12 text-justify text-xl text-gray-600">
+        </p> */}
+        {/* <p className="mt-12 text-justify text-xl text-gray-600">
           Pour plus d'informations, contactez-nous :{' '}
           <span className="text-blue-900 underline underline-offset-8">
             contact@revepourlavenir.fr
           </span>
-        </p>
+        </p> */}
       </div>
 
       <FootBar />

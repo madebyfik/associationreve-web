@@ -22,14 +22,10 @@ const WavyHeader: React.FC<WavyHeaderProps> = ({}) => {
           <h1 className="mb-5 text-4xl font-semibold text-white">
             Bienvenue à l'ASSOCIATION REVE
           </h1>
-          <p className="font-medium text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            nobis laudantium voluptate nam deserunt nulla sunt a, asperiores
-            consequatur repellat aut sit at repudiandae maxime cupiditate magnam
-            pariatur rem ea. Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Quia corrupti tempora temporibus libero impedit assumenda
-            repellendus eos nulla velit, delectus voluptas, ducimus excepturi
-            repudiandae ipsum unde quo deleniti explicabo sapiente.
+          <p className="text-xl font-medium text-white">
+            Bienvenue sur le site internet de l’Association REVE. Vous voulez
+            découvrir et en apprendre plus sur qui sommes-nous, nos objectifs,
+            les activités que l’on organise... vous êtes à la bonne adresse !
           </p>
           <div className="mt-5 flex w-52 justify-between text-2xl text-white">
             <a target="_blank" href="https://instagram.com/associationreve">

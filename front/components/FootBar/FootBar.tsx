@@ -29,7 +29,8 @@ const FootBar: React.FC<FootBarProps> = ({}) => {
         }
       >
         <p className="text-xl font-bold"> © 2022 Assocation Reve</p>
-        <p className="text-xl">
+        <p className="text-xl">contact@revepourlavenir.fr</p>
+        <p className="mt-5 text-xl">
           made with <FontAwesomeIcon icon={faHeart} /> by{' '}
           <a
             target="_blank"
