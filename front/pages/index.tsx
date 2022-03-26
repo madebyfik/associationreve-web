@@ -16,7 +16,7 @@ const index: React.FC<indexProps> = ({}) => {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="graduated.ico" />
+        {/* <link rel="shortcut icon" href="graduated.ico" /> */}
         <title>Association Reve - Accueil</title>
       </Head>
       <NavBar />
