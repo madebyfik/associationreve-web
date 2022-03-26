@@ -15,7 +15,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
 
   return (
     <nav className="bg-white-100 flex flex-wrap items-center p-3">
-      <Link href="/home">
+      <Link href="/">
         <a className="logo-image mr-4 inline-flex items-center p-2">
           {/* <img src="student.svg" width={60} className="mr-3" /> */}
           <span
