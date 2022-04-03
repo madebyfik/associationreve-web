@@ -16,8 +16,7 @@ const index: React.FC<indexProps> = ({}) => {
   return (
     <>
       <Head>
-        {/* <link rel="shortcut icon" href="graduated.ico" /> */}
-        <title>Association Reve - Accueil</title>
+        <title>Rêve Pour l'Avenir - Accueil</title>
       </Head>
       <NavBar />
       <WavyHeader />
