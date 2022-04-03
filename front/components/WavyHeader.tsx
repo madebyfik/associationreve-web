@@ -10,7 +10,8 @@ const WavyHeader: React.FC<WavyHeaderProps> = ({}) => {
     <>
       <div
         className={
-          styles.container + ' flex flex-wrap content-center justify-center'
+          styles.container +
+          ' flex flex-wrap content-center justify-center pt-20'
         }
       >
         <div

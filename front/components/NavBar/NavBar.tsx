@@ -1,4 +1,4 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import React, { useState } from 'react'
 
 import styles from '../../styles/components/NavBar.module.css'
@@ -14,24 +14,20 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
   }
 
   return (
-    <nav className="bg-white-100 flex flex-wrap items-center p-3">
-      <Link href="/">
-        <a className="logo-image mr-4 inline-flex items-center p-2">
-          {/* <img src="student.svg" width={60} className="mr-3" /> */}
-          <span
-            className={styles.title + ' text-2xl font-medium tracking-tight'}
-          >
-            ASSOCIATION REVE
-          </span>
-          <span
-            className={
-              styles.titleMobile + ' text-2xl font-medium tracking-tight'
-            }
-          >
-            A. REVE
-          </span>
-        </a>
-      </Link>
+    <nav className="fixed z-50 flex w-full flex-wrap items-center bg-white">
+      <a className="logo-image mr-4 inline-flex items-center p-2">
+        {/* <img src="student.svg" width={60} className="mr-3" /> */}
+        <span className={styles.title + ' text-2xl font-medium tracking-tight'}>
+          ASSOCIATION REVE
+        </span>
+        <span
+          className={
+            styles.titleMobile + ' text-2xl font-medium tracking-tight'
+          }
+        >
+          A. REVE
+        </span>
+      </a>
       {/* <button
         onClick={handleClick}
         className=" ml-auto inline-flex rounded p-3 text-black outline-none hover:bg-sky-600 hover:text-white lg:hidden"
@@ -58,6 +54,26 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
       >
         <div className="flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center">
           {/* <NavLink styleData={styles.navLink} link="/" title="Accueil" /> */}
+          {/* <NavLink styleData={styles.navLink} link="/" title="Activité" />
+          <NavLink styleData={styles.navLink} link="/" title="Équipe" />
+          <NavLink
+            styleData={styles.navLink}
+            link="/"
+            title="Devenir Adhérent"
+          /> */}
+
+          <NavLink
+            to="introduction"
+            styleData={styles.navLink}
+            title="Présentation"
+          />
+          <NavLink to="activity" styleData={styles.navLink} title="Activité" />
+          <NavLink to="team" styleData={styles.navLink} title="Équipe" />
+          <NavLink
+            to="subscribe"
+            styleData={styles.navLink}
+            title="Devenir Adhérent"
+          />
         </div>
       </div>
     </nav>

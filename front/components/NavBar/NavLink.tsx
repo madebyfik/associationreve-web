@@ -1,19 +1,24 @@
-import Link from 'next/link'
-import React from 'react'
+// import Link from 'next/link'
 
+import React from 'react'
+import { Link } from 'react-scroll'
 interface NavLinkProps {
-  link: string
+  // link: string
   title: string
   styleData: string
+  to: string
 }
 
 const NavLink: React.FC<NavLinkProps> = (props) => {
+  const handleSetInactive = () => {}
+
   return (
-    <Link href={props.link}>
+    // <Link href={props.link}>
+    <Link to={props.to} spy={true} smooth={true} offset={-70} duration={500}>
       <a
         className={
           props.styleData +
-          ' w-full items-center justify-center rounded px-3 py-2 text-lg font-bold text-black hover:bg-sky-600 hover:text-white lg:inline-flex lg:w-auto'
+          ' h-auto w-auto items-center justify-center px-3 py-2 text-lg font-bold text-black hover:cursor-pointer lg:w-auto'
         }
       >
         {props.title}
