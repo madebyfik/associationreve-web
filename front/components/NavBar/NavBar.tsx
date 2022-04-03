@@ -32,7 +32,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
           </span>
         </a>
       </Link>
-      <button
+      {/* <button
         onClick={handleClick}
         className=" ml-auto inline-flex rounded p-3 text-black outline-none hover:bg-sky-600 hover:text-white lg:hidden"
       >
@@ -50,14 +50,14 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
-      </button>
+      </button> */}
       <div
         className={`${
           active ? '' : 'hidden'
         }   w-full lg:inline-flex lg:w-auto lg:flex-grow`}
       >
         <div className="flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center">
-          <NavLink styleData={styles.navLink} link="/" title="Accueil" />
+          {/* <NavLink styleData={styles.navLink} link="/" title="Accueil" /> */}
         </div>
       </div>
     </nav>
