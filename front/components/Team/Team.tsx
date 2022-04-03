@@ -65,7 +65,7 @@ const Team: React.FC<TeamProps> = ({}) => {
           />
           <TeamCard
             image="ramazanakyol.jpeg"
-            title="Pôle Évenementielle"
+            title="Pôle Évenementiel"
             name="Ramazan AKYOL"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink="https://www.linkedin.com/in/ramazan-akyol-1b6331227/"

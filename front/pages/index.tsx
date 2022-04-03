@@ -23,7 +23,7 @@ const index: React.FC<indexProps> = ({}) => {
       <WavyHeader />
       <LeftInfo
         title="Rêve pour l'avenir"
-        paragraph="Le Réseau d'Étudiant.es Visionnaires et Engagé.es est une association située à Grenoble dont l'objectif est de promouvoir l'éducation, le développement personnel et culturel des étudiant.es ainsi que leur intégration dans la vie professionnelle."
+        paragraph="Le Réseau d'Étudiant.es Visionnaires et Engagés est une association située à Grenoble dont l'objectif est de promouvoir l'éducation, le développement personnel et culturel des étudiants ainsi que leur intégration dans la vie professionnelle."
         image="association_reve_presentation.jpg"
       />
       <ActivityContainer />
