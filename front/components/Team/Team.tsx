@@ -57,6 +57,7 @@ const Team: React.FC<TeamProps> = ({}) => {
           />
           <TeamCard
             image="emredagdemir.jpg"
+            // title="Pôle Culturel"
             title="Trésorier"
             name="Emre DAGDEMIR"
             mail="furkantanriverdi@associationreve.com"
@@ -72,14 +73,6 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/ramo_akyol/"
           />
           <TeamCard
-            image="silasertdemir.jpeg"
-            title="Pôle Culturel"
-            name="Sila SERTDEMIR"
-            mail="furkantanriverdi@associationreve.com"
-            linkedinLink="https://www.linkedin.com/in/silasertdemir/"
-            instagramLink="https://www.instagram.com/scylla.donnajuanita/"
-          />
-          <TeamCard
             image="chaymae.jpeg"
             title="Pôle Communication"
             name="Chaymae RAHMANI"
@@ -87,6 +80,30 @@ const Team: React.FC<TeamProps> = ({}) => {
             linkedinLink=""
             instagramLink="https://www.instagram.com/eam_yahs/"
           />
+          {/* <TeamCard
+            image="spidey.jpg"
+            title="Trésorier"
+            name="Selim Yozgat"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Trésorier"
+            name="Melinda"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
+          />
+          <TeamCard
+            image="spidey.jpg"
+            title="Trésorier"
+            name="Esra"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
+          /> */}
         </div>
       </div>
       <div className={styles.customShape}>
