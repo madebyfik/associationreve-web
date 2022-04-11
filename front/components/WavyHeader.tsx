@@ -25,8 +25,7 @@ const WavyHeader: React.FC<WavyHeaderProps> = ({}) => {
             Bienvenue à l'ASSOCIATION REVE
           </h1>
           <p className="text-xl font-medium text-white">
-            Rêve pour l'avenir... Venez découvrir l'association REVE et
-            rejoignez-nous !
+            Venez découvrir l'association et rejoignez-nous !
           </p>
           <p className="text-xl font-medium italic text-white underline hover:cursor-pointer">
             <Link
