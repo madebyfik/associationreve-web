@@ -56,9 +56,32 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/elif_hrlk/"
           />
           <TeamCard
+            image="melinda.jpeg"
+            title="Responsable partenariat"
+            name="Melinda AVCU"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
+          />
+          <TeamCard
+            image="esra.jpeg"
+            title="Responsable éducation"
+            name="Esra BESLI"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
+          />
+          <TeamCard
+            image="chaymae.jpeg"
+            title="Pôle Communication"
+            name="Chaymae RAHMANI"
+            mail="furkantanriverdi@associationreve.com"
+            linkedinLink=""
+            instagramLink="https://www.instagram.com/eam_yahs/"
+          />
+          <TeamCard
             image="emredagdemir.jpg"
-            // title="Pôle Culturel"
-            title="Trésorier"
+            title="Pôle Culturel"
             name="Emre DAGDEMIR"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink="https://www.linkedin.com/in/emre-dagdemir-a622ba19b/"
@@ -73,37 +96,13 @@ const Team: React.FC<TeamProps> = ({}) => {
             instagramLink="https://www.instagram.com/ramo_akyol/"
           />
           <TeamCard
-            image="chaymae.jpeg"
-            title="Pôle Communication"
-            name="Chaymae RAHMANI"
+            image="spidey.jpg"
+            title="Trésorier"
+            name="Selim ÇETINTAS"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink=""
             instagramLink="https://www.instagram.com/eam_yahs/"
           />
-          {/* <TeamCard
-            image="spidey.jpg"
-            title="Trésorier"
-            name="Selim Yozgat"
-            mail="furkantanriverdi@associationreve.com"
-            linkedinLink=""
-            instagramLink="https://www.instagram.com/eam_yahs/"
-          />
-          <TeamCard
-            image="spidey.jpg"
-            title="Trésorier"
-            name="Melinda"
-            mail="furkantanriverdi@associationreve.com"
-            linkedinLink=""
-            instagramLink="https://www.instagram.com/eam_yahs/"
-          />
-          <TeamCard
-            image="spidey.jpg"
-            title="Trésorier"
-            name="Esra"
-            mail="furkantanriverdi@associationreve.com"
-            linkedinLink=""
-            instagramLink="https://www.instagram.com/eam_yahs/"
-          /> */}
         </div>
       </div>
       <div className={styles.customShape}>

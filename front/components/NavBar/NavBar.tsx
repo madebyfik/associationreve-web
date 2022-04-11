@@ -53,15 +53,6 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
         }   w-full lg:inline-flex lg:w-auto lg:flex-grow`}
       >
         <div className="flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:h-auto  lg:w-auto lg:flex-row lg:items-center">
-          {/* <NavLink styleData={styles.navLink} link="/" title="Accueil" /> */}
-          {/* <NavLink styleData={styles.navLink} link="/" title="Activité" />
-          <NavLink styleData={styles.navLink} link="/" title="Équipe" />
-          <NavLink
-            styleData={styles.navLink}
-            link="/"
-            title="Devenir Adhérent"
-          /> */}
-
           <NavLink
             to="introduction"
             styleData={styles.navLink}
