@@ -67,11 +67,11 @@ const index: React.FC<indexProps> = ({}) => {
           paragraph="Quoi de mieux que des événements pour faire connaissance avec nos
           membres et partager un moment de convivialité ? Entre le Laser game
           en début d'année, où le rire et la compétition étaient au rendez-vous,
-          l'escape game où nous avons affronté des énigmes et les nombreux
+          l'escape game où nous avons résolu des énigmes et les nombreux
           restaurants que nous avons partagés ensemble, l'association Reve fait
           de son mieux pour créer un lien qui nous unit, sans oublier le grand
           voyage à Strasbourg et la visite du Conseil de l'Europe, un moment
-          d'échange et découverte. Le meilleur reste à venir !"
+          de découverte. Le meilleur reste à venir !"
           image="evenement_presentation.jpeg"
         />
       </div>

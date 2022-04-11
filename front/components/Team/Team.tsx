@@ -57,7 +57,7 @@ const Team: React.FC<TeamProps> = ({}) => {
           />
           <TeamCard
             image="melinda.jpeg"
-            title="Responsable partenariat"
+            title="Responsable Partenariat"
             name="Melinda AVCU"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink=""
@@ -65,7 +65,7 @@ const Team: React.FC<TeamProps> = ({}) => {
           />
           <TeamCard
             image="esra.jpeg"
-            title="Responsable éducation"
+            title="Responsable Éducation"
             name="Esra BESLI"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink=""
@@ -73,7 +73,7 @@ const Team: React.FC<TeamProps> = ({}) => {
           />
           <TeamCard
             image="chaymae.jpeg"
-            title="Pôle Communication"
+            title="Responsable Communication"
             name="Chaymae RAHMANI"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink=""
@@ -95,14 +95,14 @@ const Team: React.FC<TeamProps> = ({}) => {
             linkedinLink="https://www.linkedin.com/in/ramazan-akyol-1b6331227/"
             instagramLink="https://www.instagram.com/ramo_akyol/"
           />
-          {/* <TeamCard
-            image="spidey.jpg"
+          <TeamCard
+            image="selim.jpeg"
             title="Trésorier"
             name="Selim ÇETINTAS"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink=""
             instagramLink="https://www.instagram.com/eam_yahs/"
-          /> */}
+          />
         </div>
       </div>
       <div className={styles.customShape}>
