@@ -95,14 +95,14 @@ const Team: React.FC<TeamProps> = ({}) => {
             linkedinLink="https://www.linkedin.com/in/ramazan-akyol-1b6331227/"
             instagramLink="https://www.instagram.com/ramo_akyol/"
           />
-          <TeamCard
+          {/* <TeamCard
             image="spidey.jpg"
             title="Trésorier"
             name="Selim ÇETINTAS"
             mail="furkantanriverdi@associationreve.com"
             linkedinLink=""
             instagramLink="https://www.instagram.com/eam_yahs/"
-          />
+          /> */}
         </div>
       </div>
       <div className={styles.customShape}>
