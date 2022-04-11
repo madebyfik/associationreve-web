@@ -68,10 +68,9 @@ const index: React.FC<indexProps> = ({}) => {
           membres et partager un moment de convivialité ? Entre le Laser game
           en début d'année, où le rire et la compétition étaient au rendez-vous,
           l'escape game où nous avons résolu des énigmes et les nombreux
-          restaurants que nous avons partagés ensemble, l'association Reve fait
+          restaurants que nous avons partagés ensemble, l'association RÊVE fait
           de son mieux pour créer un lien qui nous unit, sans oublier le grand
-          voyage à Strasbourg et la visite du Conseil de l'Europe, un moment
-          de découverte. Le meilleur reste à venir !"
+          voyage à Strasbourg, un moment de découverte. Le meilleur reste à venir !"
           image="evenement_presentation.jpeg"
         />
       </div>
