@@ -91,7 +91,7 @@ const index: React.FC<indexProps> = ({}) => {
         </p>
         <iframe
           scrolling="auto"
-          src="https://www.helloasso.com/associations/reseau-des-etudiants-visionnaires-et-engages/adhesions/formulaire-d-adhesion/widget"
+          src="https://www.helloasso.com/associations/reseau-des-etudiants-visionnaires-et-engages/adhesions/formulaire-d-adhesion-1/widget"
           className={styles.helloAssoFrame + ' mt-12'}
         ></iframe>
       </div>
